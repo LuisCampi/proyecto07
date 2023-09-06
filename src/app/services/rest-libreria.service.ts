@@ -22,7 +22,7 @@ export interface Libro {
   providedIn: 'root'
 })
 export class RestLibreriaService {
-  private url = "http://localhost:3000/rest"
+  private url = "https://restlibreria-production-92d7.up.railway.app/rest"
 
   constructor(private http:HttpClient) { }
 
